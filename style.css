@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+    background-image: url(gambar/doodles.png);
+}
+
+.top-bar {
+    background-color: lightseagreen;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid orange;
+    z-index: 100;
+}
+
+.container {
+    width: 80%;
+    border: 3px solid black;
+    background-color: white;
+    margin: 80px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.twitter {
+    display: inline-block;
+    background-image: url(gambar/twitter.png);
+    height: 100px;
+    width: 100px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.header ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.header ul li a:hover {
+    color: white;
+    background-color: lightgreen;
+}
+
+.hero {
+    background-image: url(gambar/laptop.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: 0 -50px;
+    border-top: 3px solid lightgreen;
+    border-bottom: 3px solid lightskyblue;
+}
+
+.main {
+    width: 60%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.main h2 {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.main .penulis {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.main .penulis span {
+    color: magenta;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 17px;
+    text-indent: 20px;
+}
+
+.sidebar {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.sidebar h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.sidebar img {
+    float: left;
+    margin-right: 10px;
+}
+
+.sidebar p {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer p {
+    text-align: center;
+    line-height: 20px;
+    color: whitesmoke;
+}
